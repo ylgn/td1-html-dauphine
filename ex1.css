@@ -1,0 +1,20 @@
+#entete{
+	text-align:center;
+	height:20vh;
+}
+#menu{
+	text-align:center;
+	height:10vh;
+	background-color: rgb(218, 174, 132);
+	width:100%
+}
+#contenu{
+	text-align:center;
+	height:60vh;
+}
+#footer{
+	text-align:center;
+	height:10vh;
+	background-color:  rgb(218, 174, 132);
+}
+html, body { height: 100%; padding: 0; margin: 0; }

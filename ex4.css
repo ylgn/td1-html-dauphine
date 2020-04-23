@@ -1,0 +1,62 @@
+#entete{
+	text-align: center;
+	height:10%;
+}
+nav{
+	text-align:center;
+	height:10vh;
+	background-color: rgb(218, 174, 132);
+	transition: background-color 0.5s ease;
+	width:100%;
+	float: left;
+	position: sticky;
+	top: 0px;
+	margin: 0 auto;
+}
+nav:hover{
+	background-color: white;
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+nav ul::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+nav a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#contenu{
+	text-align:center;
+	height:60vh;
+	float: left;
+}
+nav a:hover{
+	color: black;
+	border-bottom: 1px solid black;
+}
+html, body { height: 100%; padding: 0; margin: 0; }	
+#transition{
+	height: 100px;
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+	transition: background-color 10s ease, height 10s ease, width 10s ease;
+}
+#transition:hover{
+	background-color: blue;
+	height: 500px;
+	width: 500px;
+}
